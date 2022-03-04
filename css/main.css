@@ -1,0 +1,417 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.now_page{
+	color: white;
+	background-color:#2D1AD4;
+}
+#middle_nav{
+	clear: both;
+	margin-top: 0px;
+	border-top: 0px #2D1AD4 solid;
+	background-color: #CCC;
+	height: 50px;
+}
+
+#middle_nav li:hover{
+	background-color: #2D1AD4; 
+}
+#middle_nav li a:hover{
+	color: white;
+}
+#middle_nav li{
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	font-size: 16px;
+	width: 25%;
+	list-style-type: none;
+	text-align: center;
+	font-weight: bold;
+}
+#logo_r{
+	float: right;	
+	padding: 0px;
+	margin: 0px;
+	height: 120px;
+}
+#logo_r img{
+	height:120px;
+	width:600px;
+	margin: 0px;
+	padding: 0px;
+}
+.white_div {
+	width: 1050px;
+	margin: auto;
+	background-color:transparent;
+	padding: 0px;
+}
+#logo_l {
+	float: left;
+	margin: 5px 10px 5px 10px;
+	
+}
+#logo_l img {
+	height: 70px;
+	margin-top: 20px;
+}
+#middle_img{
+	clear: both;
+	margin-top: 10px;
+	
+}
+#img_left{
+	float: left;
+	width: 700px;
+}
+#img_left img{
+	width: 700px;
+	height: 455px;
+}
+#img_right{
+	float: right;
+	width: 340px;
+}
+#img_right img{
+	width: 340px;
+	height: 225px;
+}
+.bottom_div{
+	min-width: 1050px;
+	background-color:#1F1F1F;
+	height: 160px;
+	clear: both;
+}
+.bottom_title {
+	font-size: 18px;
+	color: white;
+	height: 45px;
+	line-height: 45px;
+	
+}
+.bottom_title a:link{
+	color: white;
+}
+.bottom_title a:hover{
+	color: white;
+}
+.bottom_title a:visited{
+	color: white;
+}
+.bottom_list {
+	float: left;
+	width: 24%;
+	margin-right: 5px;
+}
+
+.bottom_content {
+	width: 80%;
+	margin: 0px auto 0px;
+	padding-top: 40px;
+	
+}
+
+#bottom_copy {
+	clear:both;
+	font-size: 14px;
+	height: 50px;
+	line-height: 50px;
+	width: 80%;
+	margin: 0px auto 0px;
+	text-align: center;
+}
+
+.bottom_right {
+	float: right;
+	margin-right: 50px;
+	color: white;
+	
+}
+.text{
+	height: 50px;
+	line-height: 50px;
+	font-size: 18px;
+	clear: both;
+	padding: 2px;
+	
+}
+.text1{
+	height: 50px;
+	line-height: 50px;
+	font-size: 18px;
+	clear: both;
+	padding: 2px;
+	text-align: left;
+}
+.text_title{
+	height: 50px;
+	line-height: 50px;
+	font-size: 18px;
+	clear: both;
+	padding: 2px;
+}
+.product_list_4{
+	width: 24.4%;
+	float: left;
+	text-align: center;
+	border: 1px #999999 solid;
+	margin: 2px;
+}
+#searchContainer{
+	float: left;
+	width: 800px;
+	padding-left: 100px;
+	margin: 0px;
+}
+#searchBox{
+	height: 25px;
+	width: 300px;
+	margin-right: 1px;
+}
+#btn{
+	margin-right: 2px;
+	padding-bottom: 8px;
+	padding-left: 1px;
+	height: 27px;
+    width: 27px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+	background: url("../img/topbar.png") no-repeat;
+}
+.product_img img{
+	width: 100%;
+	
+}
+.product_name{
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	color:#0DA407;
+}
+.product_intro{
+	height: 120px;
+	line-height: 30px;
+	font-size: 14px;
+	
+}
+
+.float {
+	position:fixed;
+	top:0；
+	z-index:999;
+}
+
+.frame {
+	width: 1050px;
+	border-width: 0px;
+	height: 600px;
+	align-content: center;
+}
+
+
+.view_container
+{
+	width: 100%;
+	text-align: center;
+}
+
+#all_builds_in img{
+	height: 200px;
+}
+
+#cxBuilding{
+	width: 24.4%;
+	float: left;
+	text-align: center;
+	border: 1px #999999 solid;
+	margin: 2px;
+}
+#cxBuilding p{
+	border-top: thin #DE4512 solid;
+	width: 230px;
+	margin-left: 13px;
+}
+#dmBuilding{
+	width: 24.4%;
+	float: left;
+	text-align: center;
+	border: 1px #999999 solid;
+	margin: 2px;
+}
+#dmBuilding p{
+	border-top: thin #DE4512 solid;
+	width: 230px;
+	margin-left: 13px;
+}
+#yyBuilding{
+	width: 24.4%;
+	float: left;
+	text-align: center;
+	border: 1px #999999 solid;
+	margin: 2px;
+}
+
+#yyBuilding p{
+	border-top: thin #DE4512 solid;
+	width: 230px;
+	margin-left: 13px;
+}
+#jxBuilding{
+	width: 24.4%;
+	float: left;
+	text-align: center;
+	border: 1px #999999 solid;
+	margin: 2px;
+}
+#jxBuilding p{
+	border-top: thin #DE4512 solid;
+	width: 230px;
+	margin-left: 13px;
+}
+#lzBuilding{
+	width: 24.4%;
+	float: left;
+	text-align: center;
+	border: 1px #999999 solid;
+	margin: 2px;
+}
+#lzBuilding p{
+	border-top: thin #DE4512 solid;
+	width: 230px;
+	margin-left: 13px;
+}
+#tsBuilding{
+	width: 24.4%;
+	float: left;
+	text-align: center;
+	border: 1px #999999 solid;
+	margin: 2px;
+}
+#tsBuilding p{
+	border-top: thin #DE4512 solid;
+	width: 230px;
+	margin-left: 13px;
+}
+#ccBuilding{
+	width: 24.4%;
+	float: left;
+	text-align: center;
+	border: 1px #999999 solid;
+	margin: 2px;
+}
+#ccBuilding p{
+	border-top: thin #DE4512 solid;
+	width: 230px;
+	margin-left: 13px;
+}
+#xzBuilding{
+	width: 24.4%;
+	float: left;
+	text-align: center;
+	border: 1px #999999 solid;
+	margin: 2px;
+}
+#xzBuilding p{
+	border-top: thin #DE4512 solid;
+	width: 230px;
+	margin-left: 13px;
+}
+#yfBuilding{
+	width: 24.4%;
+	float: left;
+	text-align: center;
+	border: 1px #999999 solid;
+	margin: 2px;
+}
+#yfBuilding p{
+	border-top: thin #DE4512 solid;
+	width: 230px;
+	margin-left: 13px;
+}
+#zxBuilding{
+	width: 24.4%;
+	float: left;
+	text-align: center;
+	border: 1px #999999 solid;
+	margin: 2px;
+}
+#zxBuilding p{
+	border-top: thin #DE4512 solid;
+	width: 230px;
+	margin-left: 13px;
+}
+#tyBuilding{
+	width: 24.4%;
+	float: left;
+	text-align: center;
+	border: 1px #999999 solid;
+	margin: 2px;
+}
+#tyBuilding p{
+	border-top: thin #DE4512 solid;
+	width: 230px;
+	margin-left: 13px;
+}
+#bwBuilding{
+	width: 24.4%;
+	float: left;
+	text-align: center;
+	border: 1px #999999 solid;
+	margin: 2px;
+}
+#bwBuilding p{
+	border-top: thin #DE4512 solid;
+	width: 230px;
+	margin-left: 13px;
+}
+#lyBuilding{
+	width: 24.4%;
+	float: left;
+	text-align: center;
+	border: 1px #999999 solid;
+	margin: 2px;
+}
+#lyBuilding p{
+	border-top: thin #DE4512 solid;
+	width: 230px;
+	margin-left: 13px;
+}
+#xbBuilding{
+	width: 24.4%;
+	float: left;
+	text-align: center;
+	border: 1px #999999 solid;
+	margin: 2px;
+}
+#xbBuilding p{
+	border-top: thin #DE4512 solid;
+	width: 230px;
+	margin-left: 13px;
+}
+#unknown_1{
+	width: 24.4%;
+	float: left;
+	text-align: center;
+	border: 1px #999999 solid;
+	margin: 2px;
+}
+#unknown_1 p{
+	border-top: thin #DE4512 solid;
+	width: 230px;
+	margin-left: 13px;
+}
+#unknown_2{
+	width: 24.4%;
+	float: left;
+	text-align: center;
+	border: 1px #999999 solid;
+	margin: 2px;
+}
+#unknown_2 p{
+	border-top: thin #DE4512 solid;
+	width: 230px;
+	margin-left: 13px;
+}

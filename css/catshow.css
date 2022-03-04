@@ -1,0 +1,51 @@
+.bigImg
+{
+    width: 100%;
+    height: 474px;
+	border:solid  #bfbfbf 1px;
+	
+}
+
+
+.content
+{
+	width: 100%;
+	height: 1380px;
+	background-image:url(../img/bg.jpg) ;
+	background-repeat: repeat;
+}
+
+.imgArr
+{
+	width: 100%;
+	margin-top: 1px;
+}
+
+.imgArr li
+{
+	width: 320px;
+	list-style: none;
+	background-color: white;
+	border: 1px solid #bfbfbf;
+	height: 420px;
+	float: left;
+	
+	padding: 3px;
+	margin: 2px;
+}
+
+
+
+.imgArr img
+{
+	width: 100%;
+	height: 380px;
+	
+}
+
+.imgArr span
+{
+	width: 100%;
+	height: 80px;
+	font-size: 1.2em;
+}

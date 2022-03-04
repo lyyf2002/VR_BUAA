@@ -1,0 +1,21 @@
+<krpano  debugmode="true"  logkey="true">
+
+	<!--技术交流群551278936-->
+	<plugin name="nv" keep="true" devices="mobile"
+	        url="nv.js"
+			desloc="39.980472,116.351812"
+			desname="新主楼"
+	/>
+	
+	<layer name="navigation" keep="true" devices="mobile"
+			align="left" x="10" 
+			onclick="naviToMap();" 
+			url="navigation.png" 
+			scale="0.7"/>
+	
+	<action name="naviToMap">
+		plugin[nv].setdes(get(plugin[nv].desloc),get(plugin[nv].desname));
+		plugin[nv].navigation();
+	</action>
+
+</krpano>
